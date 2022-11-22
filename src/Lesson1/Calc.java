@@ -3,6 +3,10 @@ package Lesson1;
 import java.util.Scanner;
 
 public class Calc {
+    static int num1;
+   static int num2;
+    static int res;
+
     public static void main(String[] args) throws MyExeption {
         System.out.println("выберте операцию");
         System.out.println("1. сложение");
@@ -13,10 +17,10 @@ public class Calc {
         int operation = scanner.nextInt();
 
         System.out.println("введите число");
-        int num1 = scanner.nextInt();
+         num1 = scanner.nextInt();
         System.out.println("введите второе число");
-        int num2 = scanner.nextInt();
-        int res;
+         num2 = scanner.nextInt();
+
         if (operation == 1) {
             res = num1 + num2;
         } else if (operation == 2) {
@@ -35,6 +39,10 @@ public class Calc {
             res = num1 / num2;
 
 
+
         }
+        System.out.println("результат="+res);
     }
 }
+
+
