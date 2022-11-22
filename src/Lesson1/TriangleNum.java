@@ -15,6 +15,6 @@ public class TriangleNum {
     }
 
     public static void main(String[] args) throws MyExeption {
-        System.out.println(triangleF(2));
+        System.out.println(triangleF(5));
     }
 }
